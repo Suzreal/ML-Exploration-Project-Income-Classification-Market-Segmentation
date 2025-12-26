@@ -2,22 +2,22 @@
 
 # User guide
 
-- Please use *requirement.txt* to creat the environment if needed
-- Please make sure cleaned_data.csv is under the same path of the 2 py script
-    - To run in terminal: `python segementation.py` and  `classification.py`
+- Please use *requirement.txt* to create the environment if needed
+- Please make sure cleaned_data.csv is under the same path as the 2 py scripts
+    - To run in terminal: `python segmentation.py` and  `classification.py`.
 
 The guide of the following files:
 
 
 ```bash
 .
-├── classification.py -> the final draft of income classification model
+├── classification.py -> the final draft of the income classification model
 ├── requirement.txt -> environment requirement
 ├── report.pdf -> report
-├── segementation.py -> the final draft of segmentation model
+├── segmentation.py -> the final draft of the segmentation model
 ├── Part1_classifier.ipynb -> classification model developing notebook
 ├── Part2_segmentation.ipynb -> segmentation model developing notebook
-├── cluster_diff -> detailed ML generated cluster differences
+├── cluster_diff -> detailed ML-generated cluster differences
 ├── cleaned_data.csv -> cleaned_data
 ├── Data Cleaning/
 │   ├── census-bureau.columns -> raw column
@@ -29,14 +29,18 @@ The guide of the following files:
 
 **Part 1 Pipeline:**
 
-![alt text](image.png)
+<img width="792" height="219" alt="image" src="https://github.com/user-attachments/assets/8f3c7218-6ab1-463f-acd9-5aeeebad13b8" />
+
 
 **Part 1 Result(validation set):**
-![alt text](image-2.png)
+
+
+<img width="792" height="310" alt="image-2" src="https://github.com/user-attachments/assets/da01aadb-9d2d-4583-bb1a-8e63d2174001" />
+
 
 **Part 1 Result(final model on test set):**
 
-- Decesion Threshold: 0.3
+- Decision Threshold: 0.3
 - Accuracy: 0.9485
 - Precision: 0.6168
 - Recall: 0.6268
@@ -46,7 +50,8 @@ The guide of the following files:
 
 **Part 2 Pipeline(ML model):**
 
-![alt text](image-1.png)
+<img width="788" height="223" alt="image-1" src="https://github.com/user-attachments/assets/130c1b25-058b-4fff-bdc7-cdc0af3e8e80" />
+
 
 Final cluster summary and business meaning:
 - Cluster 0: 7.31% pop, mean age 21.0, ≥$50K rate 0.09%
@@ -64,5 +69,6 @@ For more details of differences in clusters, please check the `cluster_diff.csv`
 
 Heatmap(rule-based vs ML segments)
 
-![alt text](image-3.png)
+<img width="936" height="490" alt="image-3" src="https://github.com/user-attachments/assets/93582073-46a7-4989-b0c6-0b7c6959f9ba" />
+
 
