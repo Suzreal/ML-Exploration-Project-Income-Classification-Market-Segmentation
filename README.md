@@ -33,6 +33,8 @@ The guide of the following files:
 
 
 **Part 1 Result(validation set):**
+
+
 <img width="792" height="310" alt="image-2" src="https://github.com/user-attachments/assets/da01aadb-9d2d-4583-bb1a-8e63d2174001" />
 
 
